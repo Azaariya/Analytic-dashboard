@@ -1,38 +1,70 @@
-# 💳 Nexus Financial | Professional Banking & Analytics Dashboard
+# Nexus Financial — Banking & Analytics Dashboard
 
-An advanced, responsive, and feature-rich personal finance and wealth management dashboard built with **React** and **Vanilla CSS**. Designed with modern UI/UX principles, glassmorphism headers, high-contrast dark mode support, and interactive SVG data visualizations.
+A modern, responsive financial dashboard built with React that helps users manage transactions, monitor spending, track budgets, and visualize their financial activity through an interactive interface.
 
-🌐 **Live Demo:** [analytic-dashboard-opal.vercel.app](https://analytic-dashboard-opal.vercel.app)
+## 🚀 Live Demo
 
----
+[View Live Demo](https://analytic-dashboard-opal.vercel.app/)
 
-## ✨ Key Features
+## ✨ Features
 
-* **📊 Advanced Analytics & SVG Combo Charts:** Dynamic visual representation of portfolio valuation over time featuring background volume bars, gradient area fills, smooth spline lines, and interactive nodes.
-* **🔍 Real-Time Global Search & Filters:** Instantly search through ledger transactions by description or category, with secondary filtering by transaction type (Income/Expense) and custom categories.
-* **💾 Full LocalStorage Persistence:** All state changes—including new transactions, accounts, budget limits, investments, savings goals, profile edits, and dark mode preferences—automatically persist across browser sessions.
-* **🌙 Dynamic Dark Mode:** Seamless toggle between light and high-contrast dark themes with persistent storage and optimized contrast across all cards, modals, and tables.
-* **🎯 Budget & Savings Goal Tracking:** Monitor monthly category spending against custom limits with progress bars and track progress toward long-term financial milestones.
-* **📈 Investment Portfolio Monitoring:** Track asset holdings (ETFs, index funds, bonds) equipped with custom SVG sparkline charts and real-time valuation summaries.
-* **⚙️ Interactive Profile Settings:** Update your administrator profile credentials (name and email) with live, instantaneous updates across the sidebar, header, and settings panels.
+* **Dashboard Overview:** View key financial metrics and account summaries.
+* **Transaction Management:** Track income and expenses with search and filtering.
+* **Financial Analytics:** Visualize financial trends using interactive charts.
+* **Budget Tracking:** Set spending limits and monitor category-based expenses.
+* **Savings Goals:** Track progress toward personal financial goals.
+* **Investment Tracking:** Monitor investment holdings and portfolio performance.
+* **Dark Mode:** Switch between light and dark themes.
+* **Profile Settings:** Update profile information through the settings panel.
+* **Local Storage:** Save transactions, preferences, and other dashboard data in the browser.
+* **Responsive Design:** Enjoy a clean interface across different screen sizes.
 
----
+## 🛠️ Technologies Used
 
-## 🛠️ Tech Stack
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Hooks (`useState`, `useEffect`)
+* Local Storage API
+* SVG Charts
+* Vercel
 
-* **Frontend Library:** React (via CDN / Babel JSX compilation)
-* **Styling:** Custom Modular Vanilla CSS (with CSS Flexbox, Grid, and Variables)
-* **Icons & Typography:** Google Fonts (**Inter**) & Emoji-driven iconography
-* **State Management:** React Hooks (`useState`, `useEffect`)
-* **Persistence:** HTML5 `localStorage` API
-* **Deployment:** Vercel
+## 📸 Screenshots
 
----
+### Dashboard Overview
 
-## 🚀 Getting Started Locally
+![Analytics Dashboard](./analytic-dash.png)
 
-To run this project locally on your machine, follow these simple steps:
+### Transaction Management
 
-1. **Clone the repository:**
+![Transaction Management](./analytic-transaction.png)
+
+## 💻 Getting Started
+
+1. Clone the repository:
+
    ```bash
-   git clone [https://github.com/Azaariya/bank-analytics-dashboard.git](https://github.com/Azaariya/bank-analytics-dashboard.git)
+   git clone https://github.com/Azaariya/bank-analytics-dashboard.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd bank-analytics-dashboard
+   ```
+
+3. Open the project in your preferred code editor and follow the setup required by the project.
+
+## 👨‍💻 Author
+
+**Azaria**
+
+Electrical and Computer Engineering Student | Aspiring Frontend Developer
+
+* **GitHub:** [@Azaariya](https://github.com/Azaariya)
+* **LinkedIn:** [Azariya Ameha](https://www.linkedin.com/in/azariya-ameha/)
+
+## 📄 License
+
+This project was created for learning and portfolio purposes.
